@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //static middleware
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-app.listen(process.env.PORT || 5000, () => console.log(`Listening on 5000`))
+app.listen(3000, () => console.log(`Listening on 3000`))
 
 app.use('/api', require('./api'));
 
