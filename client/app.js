@@ -8,12 +8,8 @@ import { Sticky } from 'semantic-ui-react'
 const App = () => {
   return (
     <div>
- <Navbar/>
+      <Navbar/>
       <Header />
-
-      {/* <Sticky>
-        <Navbar />
-      </Sticky> */}
       <Routes />
       <BottomBar />
     </div>

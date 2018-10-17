@@ -5,10 +5,9 @@ import Pictures from './pictures'
 const Media = () => {
   return (
     <Container className='wcontent'>
-      <Header as='h2' icon textAlign='center'>
-      <Icon name="lightbulb" size="huge" circular color="red" />
-    </Header>
-    <Divider horizontal section as="h2">My Projects</Divider>
+    <Divider hidden />
+    <Divider horizontal section as="h2">Projects</Divider>
+    <Divider hidden />
       <Grid stackable columns={2}>
         <Grid.Row>
         <Grid.Column >
@@ -42,11 +41,12 @@ const Media = () => {
       <Divider hidden/>
       <Divider hidden/>
       <Divider hidden/>
-      <Header as='h2' icon textAlign='center'>
-      <Icon name="camera retro" size="huge" circular color="red" />
-    </Header>
-    <Divider horizontal section as="h2">My Pictures</Divider>
+    <Divider horizontal section as="h2">Photographs</Divider>
+    <Divider hidden />
       <Pictures />
+      <Divider hidden/>
+    <Divider horizontal section as="h2">Writing (coming soon)</Divider>
+    <Divider hidden />
       {/* <Divider horizontal section as="h2">My Writing</Divider>
       <Container className="writing">
       <iframe src="https://docs.google.com/document/d/e/2PACX-1vT8Oq87TuPm-9wrVzdNxn0o8OLSuH-0mz2GojCeEwWZrZxSV2hI51jQpJ9ltOqXq97BvuTqfwJNhxqN/pub?embedded=true" className="doc"></iframe>

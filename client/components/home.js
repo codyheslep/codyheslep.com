@@ -13,11 +13,13 @@ const Home = () => {
     <div className="wcontent">
       {/* <Header as='h2' icon textAlign='center'>
       <Icon name="home" size="huge" circular color="red" />
-    </Header>
-    <Divider horizontal section as="h2">My Story</Divider> */}
+    </Header> */}
+    <Divider hidden />
+    <Divider horizontal section as="h2">Story</Divider>
+    <Divider hidden />
     <Divider hidden/>
     <Grid stackable>
-    <Grid.Row columns={2}>
+    <Grid.Row columns={3}>
       <Grid.Column>
       <Container>
         <Reveal animated='fade'>
@@ -40,8 +42,6 @@ const Home = () => {
         </Reveal.Content>
        </Reveal>
       </Grid.Column>
-      </Grid.Row>
-      <Grid.Row columns={2}>
       <Grid.Column >
       <Reveal animated='fade'>
         <Reveal.Content visible>
@@ -52,6 +52,9 @@ const Home = () => {
         </Reveal.Content>
        </Reveal>
       </Grid.Column>
+
+      </Grid.Row>
+      <Grid.Row columns={3}>
       <Grid.Column >
       <Reveal animated='fade'>
         <Reveal.Content visible>
@@ -62,8 +65,6 @@ const Home = () => {
         </Reveal.Content>
        </Reveal>
       </Grid.Column>
-      </Grid.Row>
-      <Grid.Row columns={2}>
       <Grid.Column >
       <Reveal animated='fade'>
         <Reveal.Content visible>

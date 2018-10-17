@@ -1,14 +1,13 @@
 import React from 'react'
-import { Header, Divider, Icon, Grid, Card, Item } from 'semantic-ui-react'
+import { Header, Divider, Icon, Container, Grid, Card, Item } from 'semantic-ui-react'
 
 const Experience = () => {
   return (
     <div className='wcontent'>
-      <Header as='h2' icon textAlign='center'>
-      <Icon name="rocket" size="huge" circular color="red" />
-    </Header>
-    <Divider horizontal section as="h2">My Resume</Divider>
-    <Card.Group itemsPerRow={2} className='linkedcards'>
+    <Divider hidden />
+    <Divider horizontal section as="h2">Resume</Divider>
+    <Divider hidden />
+    {/* <Card.Group itemsPerRow={2} className='linkedcards'>
       <Card raised>
         <Card.Content>
           <Card.Description>
@@ -25,11 +24,13 @@ const Experience = () => {
         </Card.Description>
         </Card.Content>
         </Card>
-      </Card.Group>
-    <Header as='h2' icon textAlign='center'>
-      <Icon name="code" size="huge" circular color="red" />
-    </Header>
-    <Divider horizontal section as="h2">My Skills</Divider>
+      </Card.Group> */}
+      <Container textAlign='centered' id="contactinfo">
+          <Icon color="black" size="huge" name="linkedin" /> www.linkedin.com/in/clheslep<Icon color="black" size="huge" name="github" /> www.github.com/codyheslep
+          </Container>
+      <Divider hidden />
+    <Divider horizontal section as="h2">Skills</Divider>
+    <Divider hidden />
     <Grid stackable>
     <Grid.Row columns={3}>
     <Grid.Column>
@@ -260,16 +261,14 @@ const Experience = () => {
     </Grid.Row>
     </Grid>
 
-    <Header as='h2' icon textAlign='center'>
-      <Icon name="graduation cap" size="huge" circular color="red" />
-    </Header>
-    <Divider horizontal section as="h2">My Education</Divider>
+    <Divider hidden />
+    <Divider horizontal section as="h2">Education (coming soon)</Divider>
+    <Divider hidden />
 
 
-    <Header as='h2' icon textAlign='center'>
-      <Icon name="lemon" size="huge" circular color="red" />
-    </Header>
-    <Divider horizontal section as="h2">My Experience</Divider>
+     <Divider hidden />
+    <Divider horizontal section as="h2">Experience (coming soon)</Divider>
+    <Divider hidden />
 
     </div>
   )
