@@ -11,10 +11,11 @@ const style = {
 const Home = () => {
   return (
     <div className="wcontent">
-      <Header as='h2' icon textAlign='center'>
+      {/* <Header as='h2' icon textAlign='center'>
       <Icon name="home" size="huge" circular color="red" />
     </Header>
-    <Divider horizontal section as="h2">My Story</Divider>
+    <Divider horizontal section as="h2">My Story</Divider> */}
+    <Divider hidden/>
     <Grid stackable>
     <Grid.Row columns={2}>
       <Grid.Column>

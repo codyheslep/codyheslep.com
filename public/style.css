@@ -147,26 +147,30 @@ text-align: center
 }
 
 
-#homeicon {
-  position: absolute;
-  left: 5%;
-  top: 80%
+.homeicon {
+  position: absolute !important;
+  width: 10% !important;
+  right: 30% !important;
+  top: 70% !important
 }
 
-#projectsicon {
-  position: absolute;
-  left: 15%;
-  top: 80%
+.projectsicon {
+  position: absolute !important;
+  width: 10% !important;
+  right: 22% !important;
+  top: 70% !important
 }
-#writingsicon {
-  position: absolute;
-  right: 15%;
-  top: 80%
+.writingsicon {
+  position: absolute !important;
+  width: 10% !important;
+  right: 14% !important;
+  top: 70% !important
 }
-#experienceicon {
-  position: absolute;
-  right: 5%;
-  top: 80%
+.experienceicon {
+  position: absolute !important;
+  width: 10% !important;
+  right: 6% !important;
+  top: 70% !important
 }
 
 #homeicon p{
@@ -229,6 +233,12 @@ text-align: center
   margin-left: 20% !important
 }
 
+.menubutton {
+position: absolute !important;
+  width: 20% !important;
+  left: 60% !important;
+  top: 50% !important;
+}
 
 @media only screen and (max-width: 600px) {
   #projectsicon {
