@@ -6,7 +6,14 @@ import Navbar from './navbar'
 const Header = () => {
   return (
     <div className='bottombar'>
-      <Image src="./background1.png" className="backgroundpic" />
+      <Image src="./background2.png" className="backgroundpic" />
+
+    </div>
+  )
+}
+
+export default Header
+
 {/* <div id="homeicon">
         <Link to='/'>
         <Image src="./mystory.png" className="homeicon" />
@@ -27,8 +34,3 @@ const Header = () => {
         <Image src="./mystory.png" className="experienceicon" />
         </Link>
       </div> */}
-    </div>
-  )
-}
-
-export default Header
