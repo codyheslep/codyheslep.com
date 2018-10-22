@@ -281,13 +281,7 @@ position: absolute !important;
     font-family: Gill Sans, sans-serif;
     font-size: 10px !important;
   }
-
-  iframe {
-    height: 50px;
-    left: 50%;
-    border: 0;
-    padding: 0;
-    transform: scale(0.7);
-    /* transform-origin: 0 0; */
-}
+ .writingsmobile {
+   visibility: hidden;
+ }
 }

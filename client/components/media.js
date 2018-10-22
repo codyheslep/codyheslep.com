@@ -1,5 +1,5 @@
 import React from 'react'
-import { Embed, Container, Icon, Item, Divider, Header, Grid } from 'semantic-ui-react'
+import { Embed, Container, Responsive, Item, Divider, Segment, Header, Grid } from 'semantic-ui-react'
 import Pictures from './pictures'
 
 const Media = () => {
@@ -45,11 +45,11 @@ const Media = () => {
     <Divider hidden />
       <Pictures />
       <Divider hidden/>
+    <Responsive as={Segment} minWidth={750}>
     <Divider horizontal section as="h2">Writing</Divider>
     <Divider hidden />
     <Grid conatiner stackable columns={2} >
         <Grid.Row>
-
           <Grid.Column>
             <iframe src="https://docs.google.com/document/d/e/2PACX-1vTLyQNiRUcmdl9G_9jAtddkallUM6Pog9SnzHLplCf_HrWpKtU08L2PNCJXvDBuMJ0xiVslYQPxeMrf/pub?embedded=true" className="doc"></iframe>
           </Grid.Column>
@@ -58,6 +58,7 @@ const Media = () => {
           </Grid.Column>
         </Grid.Row>
       </Grid>
+      </Responsive>
       {/* <Divider horizontal section as="h2">My Writing</Divider>
       <Container className="writing">
       <iframe src="https://docs.google.com/document/d/e/2PACX-1vT8Oq87TuPm-9wrVzdNxn0o8OLSuH-0mz2GojCeEwWZrZxSV2hI51jQpJ9ltOqXq97BvuTqfwJNhxqN/pub?embedded=true" className="doc"></iframe>
