@@ -1231,7 +1231,7 @@ var Header = function Header() {
   return _react.default.createElement("div", {
     className: "bottombar"
   }, _react.default.createElement(_semanticUiReact.Image, {
-    src: "./background3.png",
+    src: "./background5.png",
     className: "backgroundpic"
   }));
 };

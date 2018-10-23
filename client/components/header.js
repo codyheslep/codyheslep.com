@@ -6,7 +6,7 @@ import Navbar from './navbar'
 const Header = () => {
   return (
     <div className='bottombar'>
-      <Image src="./background3.png" className="backgroundpic" />
+      <Image src="./background5.png" className="backgroundpic" />
 
     </div>
   )
